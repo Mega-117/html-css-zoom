@@ -4,3 +4,47 @@
     box-sizing: border-box;
 }
 
+/*********************************
+            utility
+*********************************/
+.bg-black{
+    background-color:black;
+}
+
+.bg-grey{
+    background-color: #232427;
+}
+
+
+
+/*********************************
+            header
+*********************************/
+
+.header-conteiner{
+    height: 45px;
+    line-height: 45px;
+    text-align: right;
+    padding-right: 6px;
+}
+
+.header-conteiner button{
+    padding:3px 6px;
+}
+.header-conteiner button span{
+    padding-left: 5px;
+}
+
+/*********************************
+            main
+*********************************/
+.main-conteiner{
+    height: calc(100vh - 100px)}
+
+/*********************************
+            footer
+*********************************/
+
+.footer-conteiner{
+    height: 55px;
+}
